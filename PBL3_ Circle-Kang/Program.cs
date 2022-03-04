@@ -17,6 +17,8 @@ namespace PBL3__Circle_Kang
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            //hello
+
         }
     }
 }
