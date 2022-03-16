@@ -51,8 +51,8 @@
             // shipToolStripMenuItem
             // 
             this.shipToolStripMenuItem.Name = "shipToolStripMenuItem";
-            this.shipToolStripMenuItem.Size = new System.Drawing.Size(52, 28);
-            this.shipToolStripMenuItem.Text = "Ship";
+            this.shipToolStripMenuItem.Size = new System.Drawing.Size(53, 28);
+            this.shipToolStripMenuItem.Text = "Shift";
             // 
             // toolStripComboBox1
             // 
