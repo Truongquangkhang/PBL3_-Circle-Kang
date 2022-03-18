@@ -79,5 +79,15 @@ namespace PBL3__Circle_Kang.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2022_03_18_125950 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2022-03-18 125950", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
