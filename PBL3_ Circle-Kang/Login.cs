@@ -71,5 +71,19 @@ namespace PBL3__Circle_Kang
                 MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Form Admin = new Form();
+            this.Hide();
+            Admin.Height = 555;
+            Admin.Width = 785;
+            Admin.ShowDialog();
+            Admin.StartPosition = FormStartPosition.CenterScreen;
+            
+            Label Admin_user = new Label();
+            Admin_user.Text = "LOGIN";
+            
+        }
     }
 }
