@@ -128,15 +128,7 @@
             this.label4.Size = new System.Drawing.Size(45, 16);
             this.label4.TabIndex = 7;
             this.label4.Text = "Admin";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(599, 181);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(80, 20);
-            this.listBox1.TabIndex = 8;
+            
             // 
             // Login
             // 
@@ -145,7 +137,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(764, 484);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
