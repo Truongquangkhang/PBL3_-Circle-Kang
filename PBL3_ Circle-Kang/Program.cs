@@ -16,7 +16,7 @@ namespace PBL3__Circle_Kang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Admin());
+            Application.Run(new Login());
             //hello nhat hung
 
         }
