@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PBL3__Circle_Kang
 {
-    public partial class Form1 : Form
+    public partial class Admin : Form
     {
-        public Form1()
+        public Admin()
         {
             InitializeComponent();
         }
@@ -32,7 +32,7 @@ namespace PBL3__Circle_Kang
             tp.Text = "hung";
             TC.TabPages.Add(tp);
             //panel1.Visible = true;
-            panel1.Controls.Add(TC);
+            panelhóaĐơn.Controls.Add(TC);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,5 +44,12 @@ namespace PBL3__Circle_Kang
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        
     }
 }
