@@ -22,19 +22,6 @@ namespace PBL3__Circle_Kang
 
         }
 
-        private void thêmHàngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            TabControl TC = new TabControl();
-            //TC.Dock = DockStyle.Fill;
-            UserControl UC = new UserControl();
-            TabPage tp = new TabPage();
-            tp.Controls.Add(UC);
-            tp.Text = "hung";
-            TC.TabPages.Add(tp);
-            //panel1.Visible = true;
-            panelhóaĐơn.Controls.Add(TC);
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -42,14 +29,65 @@ namespace PBL3__Circle_Kang
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            panelhóaĐơn.Visible = false;
+            panelDanhsáchHH.Visible = false;
+            panelNhapHang.Visible = false;
+            paneIThongtinKH.Visible = false;
+            panelNewKhachhang.Visible = false;
+        }     
 
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            panelhóaĐơn.Visible = true;
+            panelDanhsáchHH.Visible = false;
+            panelNhapHang.Visible = false;
+            paneIThongtinKH.Visible = false;
+            panelNewKhachhang.Visible = false;
         }
 
-        
+        private void DSHangHoaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelhóaĐơn.Visible = false;
+            panelDanhsáchHH.Visible = true;
+            panelNhapHang.Visible = false;
+            paneIThongtinKH.Visible = false;
+            panelNewKhachhang.Visible = false;
+        }
+
+        private void nhậpHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelhóaĐơn.Visible = false;
+            panelDanhsáchHH.Visible = false;
+            panelNhapHang.Visible = true;
+            paneIThongtinKH.Visible = false;
+            panelNewKhachhang.Visible = false;
+        }
+
+        private void ThongtinKHtoolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            paneIThongtinKH.Visible = true;
+            panelNewKhachhang.Visible = false;
+            panelhóaĐơn.Visible = false;
+            panelDanhsáchHH.Visible = false;
+            panelNhapHang.Visible = false;
+        }
+
+        private void tạoKháchHàngMớiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            paneIThongtinKH.Visible = true;
+            panelNewKhachhang.Visible = true;
+            panelhóaĐơn.Visible = false;
+            panelDanhsáchHH.Visible = false;
+            panelNhapHang.Visible = false;
+        }
+
+        private void tổngQuantoolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            paneIThongtinKH.Visible = false;
+            panelNewKhachhang.Visible = false;
+            panelhóaĐơn.Visible = false;
+            panelDanhsáchHH.Visible = false;
+            panelNhapHang.Visible = false;
+        }
     }
 }

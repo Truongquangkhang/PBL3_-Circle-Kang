@@ -26,5 +26,11 @@ namespace PBL3__Circle_Kang
         {
 
         }
+
+        private void Cashier_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
