@@ -37,14 +37,14 @@ namespace PBL3__Circle_Kang
             }
             return true;
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void Login_Click(object sender, EventArgs e)
         {
             if (textBox1.Text=="" || textBox2.Text == "")
             {
                 MessageBox.Show("Vui lòng nhập tài khoản và mật khẩu của bạn", "Warning", MessageBoxButtons.OK
                     , MessageBoxIcon.Warning);
             }
-            else if(textBox1.Text == "1" || textBox2.Text == "1")
+            else if(textBox1.Text == "admin" || textBox2.Text == "123")
             {
                 //Form f1 = new Form();
                 //this.Hide();
@@ -63,8 +63,9 @@ namespace PBL3__Circle_Kang
                 //f1.Show();
                 //this.Show();
                 this.Hide();
-                Cashier cashier = new Cashier();    
-                cashier.Show();
+                Admin am = new Admin();
+                am.ShowDialog();
+                this.Show();
             }
             else
             {
@@ -85,5 +86,7 @@ namespace PBL3__Circle_Kang
             Admin_user.Text = "LOGIN";
             
         }
+
+        
     }
 }
