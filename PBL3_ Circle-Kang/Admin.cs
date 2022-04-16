@@ -34,6 +34,7 @@ namespace PBL3__Circle_Kang
             panelNhapHang.Visible = false;
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
+            panelDSNhanvien.Visible = false;
         }     
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
@@ -43,6 +44,7 @@ namespace PBL3__Circle_Kang
             panelNhapHang.Visible = false;
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
+            panelDSNhanvien.Visible = false;
         }
 
         private void DSHangHoaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -52,6 +54,7 @@ namespace PBL3__Circle_Kang
             panelNhapHang.Visible = false;
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
+            panelDSNhanvien.Visible = false;
         }
 
         private void nhậpHàngToolStripMenuItem_Click(object sender, EventArgs e)
@@ -61,6 +64,7 @@ namespace PBL3__Circle_Kang
             panelNhapHang.Visible = true;
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
+            panelDSNhanvien.Visible = false;
         }
 
         private void ThongtinKHtoolStripMenuItem2_Click(object sender, EventArgs e)
@@ -70,6 +74,7 @@ namespace PBL3__Circle_Kang
             panelhóaĐơn.Visible = false;
             panelDanhsáchHH.Visible = false;
             panelNhapHang.Visible = false;
+            panelDSNhanvien.Visible = false;
         }
 
         private void tạoKháchHàngMớiToolStripMenuItem_Click(object sender, EventArgs e)
@@ -79,8 +84,17 @@ namespace PBL3__Circle_Kang
             panelhóaĐơn.Visible = false;
             panelDanhsáchHH.Visible = false;
             panelNhapHang.Visible = false;
+            panelDSNhanvien.Visible = false;
         }
-
+        private void DSNVToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            paneIThongtinKH.Visible = false;
+            panelNewKhachhang.Visible = false;
+            panelhóaĐơn.Visible = false;
+            panelDanhsáchHH.Visible = false;
+            panelNhapHang.Visible = false;
+            panelDSNhanvien.Visible = true;
+        }
         private void tổngQuantoolStripMenuItem_Click(object sender, EventArgs e)
         {
             paneIThongtinKH.Visible = false;
@@ -88,6 +102,9 @@ namespace PBL3__Circle_Kang
             panelhóaĐơn.Visible = false;
             panelDanhsáchHH.Visible = false;
             panelNhapHang.Visible = false;
+            panelDSNhanvien.Visible = false;
         }
+
+
     }
 }

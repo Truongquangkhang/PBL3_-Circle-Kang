@@ -32,5 +32,9 @@ namespace PBL3__Circle_Kang
 
         }
 
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

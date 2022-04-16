@@ -33,15 +33,20 @@
             this.đơnHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đặtHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.khoHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.báoCáoKhoHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.càiĐặtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelđặtHàng = new System.Windows.Forms.Panel();
+            this.searchButton = new PBL3__Circle_Kang.VBButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.vbButton1 = new PBL3__Circle_Kang.VBButton();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.kháchTrảlabel = new System.Windows.Forms.Label();
             this.cầnTrảlabel = new System.Windows.Forms.Label();
             this.phụThulabel = new System.Windows.Forms.Label();
@@ -50,9 +55,6 @@
             this.cashierLabel = new System.Windows.Forms.Label();
             this.comboBox = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.searchButton = new PBL3__Circle_Kang.VBButton();
-            this.vbButton1 = new PBL3__Circle_Kang.VBButton();
-            this.báoCáoKhoHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panelđặtHàng.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -99,7 +101,7 @@
             this.đặtHàngToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.đặtHàngToolStripMenuItem.Name = "đặtHàngToolStripMenuItem";
             this.đặtHàngToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
-            this.đặtHàngToolStripMenuItem.Size = new System.Drawing.Size(224, 40);
+            this.đặtHàngToolStripMenuItem.Size = new System.Drawing.Size(188, 40);
             this.đặtHàngToolStripMenuItem.Text = "Đặt hàng";
             // 
             // khoHàngToolStripMenuItem
@@ -111,6 +113,12 @@
             this.khoHàngToolStripMenuItem.Name = "khoHàngToolStripMenuItem";
             this.khoHàngToolStripMenuItem.Size = new System.Drawing.Size(153, 66);
             this.khoHàngToolStripMenuItem.Text = "Kho hàng";
+            // 
+            // báoCáoKhoHàngToolStripMenuItem
+            // 
+            this.báoCáoKhoHàngToolStripMenuItem.Name = "báoCáoKhoHàngToolStripMenuItem";
+            this.báoCáoKhoHàngToolStripMenuItem.Size = new System.Drawing.Size(210, 42);
+            this.báoCáoKhoHàngToolStripMenuItem.Text = "Báo cáo";
             // 
             // toolStripMenuItem1
             // 
@@ -137,141 +145,8 @@
             this.panelđặtHàng.Controls.Add(this.textBox1);
             this.panelđặtHàng.Location = new System.Drawing.Point(0, 73);
             this.panelđặtHàng.Name = "panelđặtHàng";
-            this.panelđặtHàng.Size = new System.Drawing.Size(2029, 735);
+            this.panelđặtHàng.Size = new System.Drawing.Size(2029, 850);
             this.panelđặtHàng.TabIndex = 3;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.vbButton1);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.kháchTrảlabel);
-            this.panel1.Controls.Add(this.cầnTrảlabel);
-            this.panel1.Controls.Add(this.phụThulabel);
-            this.panel1.Controls.Add(this.giảmGiálabel);
-            this.panel1.Controls.Add(this.tổngTiềnlabel);
-            this.panel1.Controls.Add(this.cashierLabel);
-            this.panel1.Controls.Add(this.comboBox);
-            this.panel1.Font = new System.Drawing.Font("Segoe Script", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(1568, 8);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(458, 922);
-            this.panel1.TabIndex = 2;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(214, 492);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(189, 28);
-            this.textBox6.TabIndex = 2;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(214, 413);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(189, 28);
-            this.textBox5.TabIndex = 2;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(214, 335);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(189, 28);
-            this.textBox4.TabIndex = 2;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(214, 246);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(189, 28);
-            this.textBox3.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(214, 159);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(189, 28);
-            this.textBox2.TabIndex = 2;
-            // 
-            // kháchTrảlabel
-            // 
-            this.kháchTrảlabel.AutoSize = true;
-            this.kháchTrảlabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kháchTrảlabel.Location = new System.Drawing.Point(55, 488);
-            this.kháchTrảlabel.Name = "kháchTrảlabel";
-            this.kháchTrảlabel.Size = new System.Drawing.Size(147, 32);
-            this.kháchTrảlabel.TabIndex = 1;
-            this.kháchTrảlabel.Text = "Khách đã trả";
-            // 
-            // cầnTrảlabel
-            // 
-            this.cầnTrảlabel.AutoSize = true;
-            this.cầnTrảlabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cầnTrảlabel.Location = new System.Drawing.Point(55, 409);
-            this.cầnTrảlabel.Name = "cầnTrảlabel";
-            this.cầnTrảlabel.Size = new System.Drawing.Size(158, 32);
-            this.cầnTrảlabel.TabIndex = 1;
-            this.cầnTrảlabel.Text = "Khách cần trả";
-            // 
-            // phụThulabel
-            // 
-            this.phụThulabel.AutoSize = true;
-            this.phụThulabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phụThulabel.Location = new System.Drawing.Point(55, 331);
-            this.phụThulabel.Name = "phụThulabel";
-            this.phụThulabel.Size = new System.Drawing.Size(98, 32);
-            this.phụThulabel.TabIndex = 1;
-            this.phụThulabel.Text = "Phụ thu";
-            // 
-            // giảmGiálabel
-            // 
-            this.giảmGiálabel.AutoSize = true;
-            this.giảmGiálabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.giảmGiálabel.Location = new System.Drawing.Point(55, 246);
-            this.giảmGiálabel.Name = "giảmGiálabel";
-            this.giảmGiálabel.Size = new System.Drawing.Size(108, 32);
-            this.giảmGiálabel.TabIndex = 1;
-            this.giảmGiálabel.Text = "Giảm giá";
-            // 
-            // tổngTiềnlabel
-            // 
-            this.tổngTiềnlabel.AutoSize = true;
-            this.tổngTiềnlabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tổngTiềnlabel.Location = new System.Drawing.Point(51, 159);
-            this.tổngTiềnlabel.Name = "tổngTiềnlabel";
-            this.tổngTiềnlabel.Size = new System.Drawing.Size(117, 32);
-            this.tổngTiềnlabel.TabIndex = 1;
-            this.tổngTiềnlabel.Text = "Tổng tiền";
-            // 
-            // cashierLabel
-            // 
-            this.cashierLabel.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.cashierLabel.AutoSize = true;
-            this.cashierLabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashierLabel.Location = new System.Drawing.Point(51, 75);
-            this.cashierLabel.Name = "cashierLabel";
-            this.cashierLabel.Size = new System.Drawing.Size(124, 32);
-            this.cashierLabel.TabIndex = 1;
-            this.cashierLabel.Text = "Nhân viên";
-            // 
-            // comboBox
-            // 
-            this.comboBox.FormattingEnabled = true;
-            this.comboBox.Location = new System.Drawing.Point(214, 76);
-            this.comboBox.Name = "comboBox";
-            this.comboBox.Size = new System.Drawing.Size(189, 28);
-            this.comboBox.TabIndex = 0;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(37, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(492, 36);
-            this.textBox1.TabIndex = 0;
             // 
             // searchButton
             // 
@@ -284,13 +159,37 @@
             this.searchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.searchButton.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.searchButton.Location = new System.Drawing.Point(590, 12);
+            this.searchButton.Location = new System.Drawing.Point(595, 15);
             this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(157, 47);
+            this.searchButton.Size = new System.Drawing.Size(175, 47);
             this.searchButton.TabIndex = 3;
             this.searchButton.Text = "Tìm";
             this.searchButton.TextColor = System.Drawing.SystemColors.ButtonFace;
             this.searchButton.UseVisualStyleBackColor = false;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.vbButton1);
+            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.kháchTrảlabel);
+            this.panel1.Controls.Add(this.cầnTrảlabel);
+            this.panel1.Controls.Add(this.phụThulabel);
+            this.panel1.Controls.Add(this.giảmGiálabel);
+            this.panel1.Controls.Add(this.tổngTiềnlabel);
+            this.panel1.Controls.Add(this.cashierLabel);
+            this.panel1.Controls.Add(this.comboBox);
+            this.panel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(1466, 21);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(505, 867);
+            this.panel1.TabIndex = 2;
             // 
             // vbButton1
             // 
@@ -301,21 +200,144 @@
             this.vbButton1.BorderSize = 0;
             this.vbButton1.FlatAppearance.BorderSize = 0;
             this.vbButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton1.Font = new System.Drawing.Font("Segoe UI Black", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vbButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vbButton1.ForeColor = System.Drawing.Color.White;
-            this.vbButton1.Location = new System.Drawing.Point(214, 632);
+            this.vbButton1.Location = new System.Drawing.Point(133, 731);
             this.vbButton1.Name = "vbButton1";
-            this.vbButton1.Size = new System.Drawing.Size(189, 104);
+            this.vbButton1.Size = new System.Drawing.Size(259, 74);
             this.vbButton1.TabIndex = 3;
             this.vbButton1.Text = "Thanh toán";
             this.vbButton1.TextColor = System.Drawing.Color.White;
             this.vbButton1.UseVisualStyleBackColor = false;
             // 
-            // báoCáoKhoHàngToolStripMenuItem
+            // textBox7
             // 
-            this.báoCáoKhoHàngToolStripMenuItem.Name = "báoCáoKhoHàngToolStripMenuItem";
-            this.báoCáoKhoHàngToolStripMenuItem.Size = new System.Drawing.Size(224, 42);
-            this.báoCáoKhoHàngToolStripMenuItem.Text = "Báo cáo";
+            this.textBox7.Location = new System.Drawing.Point(214, 561);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(255, 34);
+            this.textBox7.TabIndex = 2;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(214, 470);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(255, 34);
+            this.textBox6.TabIndex = 2;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(214, 382);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(255, 34);
+            this.textBox5.TabIndex = 2;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(214, 294);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(255, 34);
+            this.textBox4.TabIndex = 2;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(214, 209);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(255, 34);
+            this.textBox3.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(214, 121);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(255, 34);
+            this.textBox2.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(51, 563);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(115, 32);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Tiền thừa";
+            // 
+            // kháchTrảlabel
+            // 
+            this.kháchTrảlabel.AutoSize = true;
+            this.kháchTrảlabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kháchTrảlabel.Location = new System.Drawing.Point(51, 472);
+            this.kháchTrảlabel.Name = "kháchTrảlabel";
+            this.kháchTrảlabel.Size = new System.Drawing.Size(147, 32);
+            this.kháchTrảlabel.TabIndex = 1;
+            this.kháchTrảlabel.Text = "Khách đã trả";
+            // 
+            // cầnTrảlabel
+            // 
+            this.cầnTrảlabel.AutoSize = true;
+            this.cầnTrảlabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cầnTrảlabel.Location = new System.Drawing.Point(51, 384);
+            this.cầnTrảlabel.Name = "cầnTrảlabel";
+            this.cầnTrảlabel.Size = new System.Drawing.Size(129, 32);
+            this.cầnTrảlabel.TabIndex = 1;
+            this.cầnTrảlabel.Text = "Thành tiền";
+            // 
+            // phụThulabel
+            // 
+            this.phụThulabel.AutoSize = true;
+            this.phụThulabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phụThulabel.Location = new System.Drawing.Point(51, 296);
+            this.phụThulabel.Name = "phụThulabel";
+            this.phụThulabel.Size = new System.Drawing.Size(98, 32);
+            this.phụThulabel.TabIndex = 1;
+            this.phụThulabel.Text = "Phụ thu";
+            // 
+            // giảmGiálabel
+            // 
+            this.giảmGiálabel.AutoSize = true;
+            this.giảmGiálabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.giảmGiálabel.Location = new System.Drawing.Point(51, 211);
+            this.giảmGiálabel.Name = "giảmGiálabel";
+            this.giảmGiálabel.Size = new System.Drawing.Size(108, 32);
+            this.giảmGiálabel.TabIndex = 1;
+            this.giảmGiálabel.Text = "Giảm giá";
+            // 
+            // tổngTiềnlabel
+            // 
+            this.tổngTiềnlabel.AutoSize = true;
+            this.tổngTiềnlabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tổngTiềnlabel.Location = new System.Drawing.Point(51, 123);
+            this.tổngTiềnlabel.Name = "tổngTiềnlabel";
+            this.tổngTiềnlabel.Size = new System.Drawing.Size(117, 32);
+            this.tổngTiềnlabel.TabIndex = 1;
+            this.tổngTiềnlabel.Text = "Tổng tiền";
+            // 
+            // cashierLabel
+            // 
+            this.cashierLabel.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.cashierLabel.AutoSize = true;
+            this.cashierLabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cashierLabel.Location = new System.Drawing.Point(51, 35);
+            this.cashierLabel.Name = "cashierLabel";
+            this.cashierLabel.Size = new System.Drawing.Size(124, 32);
+            this.cashierLabel.TabIndex = 1;
+            this.cashierLabel.Text = "Nhân viên";
+            // 
+            // comboBox
+            // 
+            this.comboBox.FormattingEnabled = true;
+            this.comboBox.Location = new System.Drawing.Point(214, 36);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.Size = new System.Drawing.Size(255, 36);
+            this.comboBox.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(37, 21);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(492, 36);
+            this.textBox1.TabIndex = 0;
             // 
             // Cashier
             // 
@@ -369,5 +391,7 @@
         private System.Windows.Forms.ComboBox comboBox;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ToolStripMenuItem báoCáoKhoHàngToolStripMenuItem;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label1;
     }
 }
