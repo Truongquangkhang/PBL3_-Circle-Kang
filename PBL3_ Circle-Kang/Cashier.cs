@@ -37,6 +37,25 @@ namespace PBL3__Circle_Kang
 
         }
 
+        private void đặtHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelđặtHàng.Visible = true;
+            panelNewKhachhang.Visible = false;
+            panelBaocao.Visible = false;
+        }
 
+        private void báoCáoKhoHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelđặtHàng.Visible = false;
+            panelNewKhachhang.Visible = false;
+            panelBaocao.Visible = true;
+        }
+
+        private void tạoKháchHàngMớiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelđặtHàng.Visible = false;
+            panelNewKhachhang.Visible = true;
+            panelBaocao.Visible = false;
+        }
     }
 }
