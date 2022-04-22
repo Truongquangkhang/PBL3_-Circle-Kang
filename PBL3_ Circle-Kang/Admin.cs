@@ -122,5 +122,15 @@ namespace PBL3__Circle_Kang
         {
 
         }
+
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelLuong_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
