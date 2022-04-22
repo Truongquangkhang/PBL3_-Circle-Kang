@@ -36,6 +36,7 @@ namespace PBL3__Circle_Kang
             panelNewKhachhang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = true;
+            panelLuong.Visible = false;
         }     
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
@@ -47,6 +48,7 @@ namespace PBL3__Circle_Kang
             panelNewKhachhang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
+            panelLuong.Visible = false;
         }
 
         private void DSHangHoaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -58,6 +60,7 @@ namespace PBL3__Circle_Kang
             panelNewKhachhang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
+            panelLuong.Visible = false;
         }
 
         private void nhậpHàngToolStripMenuItem_Click(object sender, EventArgs e)
@@ -69,6 +72,7 @@ namespace PBL3__Circle_Kang
             panelNewKhachhang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
+            panelLuong.Visible = false;
         }
 
         private void ThongtinKHtoolStripMenuItem2_Click(object sender, EventArgs e)
@@ -80,6 +84,7 @@ namespace PBL3__Circle_Kang
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
+            panelLuong.Visible = false;
         }
 
         private void tạoKháchHàngMớiToolStripMenuItem_Click(object sender, EventArgs e)
@@ -91,6 +96,7 @@ namespace PBL3__Circle_Kang
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
+            panelLuong.Visible = false;
         }
         private void DSNVToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -101,6 +107,7 @@ namespace PBL3__Circle_Kang
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = true;
             panelTongQuan.Visible = false;
+            panelLuong.Visible = false;
         }
         private void tổngQuantoolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -111,6 +118,7 @@ namespace PBL3__Circle_Kang
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = true;
+            panelLuong.Visible = false;
         }
 
         private void panelDSNhanvien_Paint(object sender, PaintEventArgs e)
@@ -131,6 +139,18 @@ namespace PBL3__Circle_Kang
         private void panelLuong_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void lươngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            paneIThongtinKH.Visible = false;
+            panelNewKhachhang.Visible = false;
+            panelhóaĐơn.Visible = false;
+            panelDanhsáchHH.Visible = false;
+            panelNhapHang.Visible = false;
+            panelDSNhanvien.Visible = false;
+            panelTongQuan.Visible = false;
+            panelLuong.Visible = true;
         }
     }
 }
