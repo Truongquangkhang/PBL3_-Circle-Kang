@@ -29,8 +29,8 @@ namespace PBL3__Circle_Kang
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            panelhóaĐơn.Visible = false;
-            panelDanhsáchHH.Visible = false;
+            panelHoaDon.Visible = false;
+            panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
@@ -41,8 +41,8 @@ namespace PBL3__Circle_Kang
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panelhóaĐơn.Visible = true;
-            panelDanhsáchHH.Visible = false;
+            panelHoaDon.Visible = true;
+            panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
@@ -53,8 +53,8 @@ namespace PBL3__Circle_Kang
 
         private void DSHangHoaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panelhóaĐơn.Visible = false;
-            panelDanhsáchHH.Visible = true;
+            panelHoaDon.Visible = false;
+            panelDanhsachHH.Visible = true;
             panelNhapHang.Visible = false;
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
@@ -65,8 +65,8 @@ namespace PBL3__Circle_Kang
 
         private void nhậpHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panelhóaĐơn.Visible = false;
-            panelDanhsáchHH.Visible = false;
+            panelHoaDon.Visible = false;
+            panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = true;
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
@@ -79,8 +79,8 @@ namespace PBL3__Circle_Kang
         {
             paneIThongtinKH.Visible = true;
             panelNewKhachhang.Visible = false;
-            panelhóaĐơn.Visible = false;
-            panelDanhsáchHH.Visible = false;
+            panelHoaDon.Visible = false;
+            panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
@@ -91,8 +91,8 @@ namespace PBL3__Circle_Kang
         {
             paneIThongtinKH.Visible = true;
             panelNewKhachhang.Visible = true;
-            panelhóaĐơn.Visible = false;
-            panelDanhsáchHH.Visible = false;
+            panelHoaDon.Visible = false;
+            panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
@@ -102,8 +102,8 @@ namespace PBL3__Circle_Kang
         {
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
-            panelhóaĐơn.Visible = false;
-            panelDanhsáchHH.Visible = false;
+            panelHoaDon.Visible = false;
+            panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = true;
             panelTongQuan.Visible = false;
@@ -113,8 +113,8 @@ namespace PBL3__Circle_Kang
         {
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
-            panelhóaĐơn.Visible = false;
-            panelDanhsáchHH.Visible = false;
+            panelHoaDon.Visible = false;
+            panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = true;
@@ -145,8 +145,8 @@ namespace PBL3__Circle_Kang
         {
             paneIThongtinKH.Visible = false;
             panelNewKhachhang.Visible = false;
-            panelhóaĐơn.Visible = false;
-            panelDanhsáchHH.Visible = false;
+            panelHoaDon.Visible = false;
+            panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
