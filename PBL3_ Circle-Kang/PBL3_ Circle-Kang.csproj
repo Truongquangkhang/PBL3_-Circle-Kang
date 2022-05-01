@@ -48,49 +48,69 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cashier.cs">
+    <Compile Include="BLL\BLL_Login.cs" />
+    <Compile Include="BLL_AD\BLL_HangHoa.cs" />
+    <Compile Include="DAL\DAL_Login.cs" />
+    <Compile Include="DAL\Login_DBHelper.cs" />
+    <Compile Include="DAL_AD\DAL_HangHoa.cs" />
+    <Compile Include="DAL_AD\DBHelper_AD.cs" />
+    <Compile Include="DTO\Account.cs" />
+    <Compile Include="DTO_AD\CBBItemLoaiHang.cs" />
+    <Compile Include="DTO_AD\CBBItemMaGiamGia.cs" />
+    <Compile Include="DTO_AD\CBBItemNhaSanXuat.cs" />
+    <Compile Include="DTO_AD\Hang.cs" />
+    <Compile Include="DTO_AD\LoaiHang.cs" />
+    <Compile Include="DTO_AD\MaGiamGia.cs" />
+    <Compile Include="DTO_AD\NhaSanXuat.cs" />
+    <Compile Include="GUI\GUI_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cashier.Designer.cs">
-      <DependentUpon>Cashier.cs</DependentUpon>
+    <Compile Include="GUI\GUI_Login.Designer.cs">
+      <DependentUpon>GUI_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin.cs">
+    <Compile Include="GUI_AD\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin.Designer.cs">
+    <Compile Include="GUI_AD\Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="BillDetails.cs">
+    <Compile Include="GUI_AD\DetailBill.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BillDetails.Designer.cs">
-      <DependentUpon>BillDetails.cs</DependentUpon>
+    <Compile Include="GUI_AD\DetailBill.Designer.cs">
+      <DependentUpon>DetailBill.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="GUI_AD\GoodDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="GUI_AD\GoodDetail.Designer.cs">
+      <DependentUpon>GoodDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_ST\Cashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_ST\Cashier.Designer.cs">
+      <DependentUpon>Cashier.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SQLconn.cs" />
     <Compile Include="VSCustomButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="Cashier.resx">
-      <DependentUpon>Cashier.cs</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="GUI\GUI_Login.resx">
+      <DependentUpon>GUI_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin.resx">
+    <EmbeddedResource Include="GUI_AD\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="BillDetails.resx">
-      <DependentUpon>BillDetails.cs</DependentUpon>
+    <EmbeddedResource Include="GUI_AD\DetailBill.resx">
+      <DependentUpon>DetailBill.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="GUI_AD\GoodDetail.resx">
+      <DependentUpon>GoodDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_ST\Cashier.resx">
+      <DependentUpon>Cashier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -111,6 +131,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\check-mark-8-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL_ST\" />
+    <Folder Include="DAL_ST\" />
+    <Folder Include="DTO_ST\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

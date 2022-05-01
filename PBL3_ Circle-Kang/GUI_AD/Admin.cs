@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PBL3__Circle_Kang.BLL_AD;
+using PBL3__Circle_Kang.DTO_AD;
 
-namespace PBL3__Circle_Kang
+namespace PBL3__Circle_Kang.GUI_AD
 {
     public partial class Admin : Form
     {
@@ -17,17 +19,7 @@ namespace PBL3__Circle_Kang
             InitializeComponent();
         }
 
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void Admin_Load(object sender, EventArgs e)
         {
             panelHoaDon.Visible = false;
             panelDanhsachHH.Visible = false;
@@ -36,18 +28,6 @@ namespace PBL3__Circle_Kang
             panelNewKhachhang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = true;
-            panelLuong.Visible = false;
-        }     
-
-        private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            panelHoaDon.Visible = true;
-            panelDanhsachHH.Visible = false;
-            panelNhapHang.Visible = false;
-            paneIThongtinKH.Visible = false;
-            panelNewKhachhang.Visible = false;
-            panelDSNhanvien.Visible = false;
-            panelTongQuan.Visible = false;
             panelLuong.Visible = false;
         }
 
@@ -61,9 +41,27 @@ namespace PBL3__Circle_Kang
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
             panelLuong.Visible = false;
+
+            if(cbbLoaiHangHoa_DSHH.Items.Count > 0)
+            {
+                cbbLoaiHangHoa_DSHH.Items.Clear();
+            }
+            cbbLoaiHangHoa_DSHH.Items.Add(new CBBItemLoaiHang
+            {
+                Value = 0,
+                Text = "All"
+            });
+            foreach(LoaiHang i in BLL_HangHoa.Instance.setCBBLoaiHang())
+            {
+                cbbLoaiHangHoa_DSHH.Items.Add(new CBBItemLoaiHang
+                {
+                    Value = i.ID,
+                    Text = i.TenLoaiHang
+                });
+            }
         }
 
-        private void nhậpHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        private void NhapHangToolStripMenuItem_Click(object sender, EventArgs e)
         {
             panelHoaDon.Visible = false;
             panelDanhsachHH.Visible = false;
@@ -75,29 +73,18 @@ namespace PBL3__Circle_Kang
             panelLuong.Visible = false;
         }
 
-        private void ThongtinKHtoolStripMenuItem2_Click(object sender, EventArgs e)
+        private void HoaDonToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            paneIThongtinKH.Visible = true;
-            panelNewKhachhang.Visible = false;
-            panelHoaDon.Visible = false;
+            panelHoaDon.Visible = true;
             panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
+            paneIThongtinKH.Visible = false;
+            panelNewKhachhang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
             panelLuong.Visible = false;
         }
 
-        private void tạoKháchHàngMớiToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            paneIThongtinKH.Visible = true;
-            panelNewKhachhang.Visible = true;
-            panelHoaDon.Visible = false;
-            panelDanhsachHH.Visible = false;
-            panelNhapHang.Visible = false;
-            panelDSNhanvien.Visible = false;
-            panelTongQuan.Visible = false;
-            panelLuong.Visible = false;
-        }
         private void DSNVToolStripMenuItem_Click(object sender, EventArgs e)
         {
             paneIThongtinKH.Visible = false;
@@ -109,48 +96,26 @@ namespace PBL3__Circle_Kang
             panelTongQuan.Visible = false;
             panelLuong.Visible = false;
         }
-        private void tổngQuantoolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void DSKHtoolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            paneIThongtinKH.Visible = false;
-            panelNewKhachhang.Visible = false;
-            panelHoaDon.Visible = false;
-            panelDanhsachHH.Visible = false;
-            panelNhapHang.Visible = false;
-            panelDSNhanvien.Visible = false;
-            panelTongQuan.Visible = true;
-            panelLuong.Visible = false;
-        }
-
-        private void panelDSNhanvien_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panelTongQuan_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelLuong_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lươngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            paneIThongtinKH.Visible = false;
+            paneIThongtinKH.Visible = true;
             panelNewKhachhang.Visible = false;
             panelHoaDon.Visible = false;
             panelDanhsachHH.Visible = false;
             panelNhapHang.Visible = false;
             panelDSNhanvien.Visible = false;
             panelTongQuan.Visible = false;
-            panelLuong.Visible = true;
+            panelLuong.Visible = false;
+        }
+
+        private void btnSearch_DSHH_Click(object sender, EventArgs e)
+        {
+            if(cbbLoaiHangHoa_DSHH.SelectedIndex != -1)
+            {
+                int id = ((CBBItemLoaiHang)cbbLoaiHangHoa_DSHH.SelectedItem).Value;
+                dgvDSHH_DSHH.DataSource = BLL_HangHoa.Instance.getAllHang(id, txtSearchDSHH_DSHH.Text);
+            }
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace PBL3__Circle_Kang
+﻿namespace PBL3__Circle_Kang.GUI
 {
-    partial class DetailHoaDon
+    partial class DetailBill
     {
         /// <summary>
         /// Required designer variable.
@@ -28,76 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.vbButton1 = new PBL3__Circle_Kang.VBButton();
+            this.vbButton3 = new PBL3__Circle_Kang.VBButton();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.kháchTrảlabel = new System.Windows.Forms.Label();
             this.cầnTrảlabel = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.phụThulabel = new System.Windows.Forms.Label();
+            this.giảmGiálabel = new System.Windows.Forms.Label();
             this.tổngTiềnlabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cashierLabel = new System.Windows.Forms.Label();
             this.comboBox = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.phụThulabel = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.giảmGiálabel = new System.Windows.Forms.Label();
+            this.vbButton1 = new PBL3__Circle_Kang.VBButton();
             this.vbButton2 = new PBL3__Circle_Kang.VBButton();
-            this.vbButton3 = new PBL3__Circle_Kang.VBButton();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // vbButton3
             // 
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.kháchTrảlabel);
-            this.panel1.Controls.Add(this.cầnTrảlabel);
-            this.panel1.Controls.Add(this.phụThulabel);
-            this.panel1.Controls.Add(this.giảmGiálabel);
-            this.panel1.Controls.Add(this.tổngTiềnlabel);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.cashierLabel);
-            this.panel1.Controls.Add(this.comboBox);
-            this.panel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(534, 518);
-            this.panel1.TabIndex = 2;
-            // 
-            // vbButton1
-            // 
-            this.vbButton1.BackColor = System.Drawing.Color.SeaGreen;
-            this.vbButton1.BackgroundColor = System.Drawing.Color.SeaGreen;
-            this.vbButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.vbButton1.BorderRadius = 10;
-            this.vbButton1.BorderSize = 0;
-            this.vbButton1.FlatAppearance.BorderSize = 0;
-            this.vbButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vbButton1.ForeColor = System.Drawing.Color.White;
-            this.vbButton1.Location = new System.Drawing.Point(189, 547);
-            this.vbButton1.Name = "vbButton1";
-            this.vbButton1.Size = new System.Drawing.Size(217, 49);
-            this.vbButton1.TabIndex = 3;
-            this.vbButton1.Text = "Lưu thay đổi";
-            this.vbButton1.TextColor = System.Drawing.Color.White;
-            this.vbButton1.UseVisualStyleBackColor = false;
+            this.vbButton3.BackColor = System.Drawing.Color.SeaGreen;
+            this.vbButton3.BackgroundColor = System.Drawing.Color.SeaGreen;
+            this.vbButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.vbButton3.BorderRadius = 10;
+            this.vbButton3.BorderSize = 0;
+            this.vbButton3.FlatAppearance.BorderSize = 0;
+            this.vbButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vbButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vbButton3.ForeColor = System.Drawing.Color.White;
+            this.vbButton3.Location = new System.Drawing.Point(759, 541);
+            this.vbButton3.Name = "vbButton3";
+            this.vbButton3.Size = new System.Drawing.Size(217, 49);
+            this.vbButton3.TabIndex = 5;
+            this.vbButton3.Text = "Thoát";
+            this.vbButton3.TextColor = System.Drawing.Color.White;
+            this.vbButton3.UseVisualStyleBackColor = false;
             // 
             // textBox7
             // 
@@ -119,6 +95,20 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(291, 34);
             this.textBox5.TabIndex = 2;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(205, 268);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(291, 34);
+            this.textBox4.TabIndex = 2;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(205, 212);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(291, 34);
+            this.textBox3.TabIndex = 2;
             // 
             // textBox1
             // 
@@ -165,6 +155,79 @@
             this.cầnTrảlabel.TabIndex = 1;
             this.cầnTrảlabel.Text = "Thành tiền";
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Location = new System.Drawing.Point(535, -6);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(622, 518);
+            this.panel2.TabIndex = 6;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 77);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(616, 425);
+            this.dataGridView1.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(22, 22);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(240, 32);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Danh sách sản phẩm";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.kháchTrảlabel);
+            this.panel1.Controls.Add(this.cầnTrảlabel);
+            this.panel1.Controls.Add(this.phụThulabel);
+            this.panel1.Controls.Add(this.giảmGiálabel);
+            this.panel1.Controls.Add(this.tổngTiềnlabel);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.cashierLabel);
+            this.panel1.Controls.Add(this.comboBox);
+            this.panel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(-5, -6);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(534, 518);
+            this.panel1.TabIndex = 4;
+            // 
+            // phụThulabel
+            // 
+            this.phụThulabel.AutoSize = true;
+            this.phụThulabel.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phụThulabel.Location = new System.Drawing.Point(42, 270);
+            this.phụThulabel.Name = "phụThulabel";
+            this.phụThulabel.Size = new System.Drawing.Size(94, 32);
+            this.phụThulabel.TabIndex = 1;
+            this.phụThulabel.Text = "Phụ thu";
+            // 
+            // giảmGiálabel
+            // 
+            this.giảmGiálabel.AutoSize = true;
+            this.giảmGiálabel.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.giảmGiálabel.Location = new System.Drawing.Point(42, 214);
+            this.giảmGiálabel.Name = "giảmGiálabel";
+            this.giảmGiálabel.Size = new System.Drawing.Size(105, 32);
+            this.giảmGiálabel.TabIndex = 1;
+            this.giảmGiálabel.Text = "Giảm giá";
+            // 
             // tổngTiềnlabel
             // 
             this.tổngTiềnlabel.AutoSize = true;
@@ -205,68 +268,24 @@
             this.comboBox.Size = new System.Drawing.Size(291, 36);
             this.comboBox.TabIndex = 0;
             // 
-            // label3
+            // vbButton1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(240, 32);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Danh sách sản phẩm";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(540, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(622, 518);
-            this.panel2.TabIndex = 3;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 77);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(616, 425);
-            this.dataGridView1.TabIndex = 2;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(205, 268);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(291, 34);
-            this.textBox4.TabIndex = 2;
-            // 
-            // phụThulabel
-            // 
-            this.phụThulabel.AutoSize = true;
-            this.phụThulabel.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phụThulabel.Location = new System.Drawing.Point(42, 270);
-            this.phụThulabel.Name = "phụThulabel";
-            this.phụThulabel.Size = new System.Drawing.Size(94, 32);
-            this.phụThulabel.TabIndex = 1;
-            this.phụThulabel.Text = "Phụ thu";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(205, 212);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(291, 34);
-            this.textBox3.TabIndex = 2;
-            // 
-            // giảmGiálabel
-            // 
-            this.giảmGiálabel.AutoSize = true;
-            this.giảmGiálabel.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.giảmGiálabel.Location = new System.Drawing.Point(42, 214);
-            this.giảmGiálabel.Name = "giảmGiálabel";
-            this.giảmGiálabel.Size = new System.Drawing.Size(105, 32);
-            this.giảmGiálabel.TabIndex = 1;
-            this.giảmGiálabel.Text = "Giảm giá";
+            this.vbButton1.BackColor = System.Drawing.Color.SeaGreen;
+            this.vbButton1.BackgroundColor = System.Drawing.Color.SeaGreen;
+            this.vbButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.vbButton1.BorderRadius = 10;
+            this.vbButton1.BorderSize = 0;
+            this.vbButton1.FlatAppearance.BorderSize = 0;
+            this.vbButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vbButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vbButton1.ForeColor = System.Drawing.Color.White;
+            this.vbButton1.Location = new System.Drawing.Point(184, 541);
+            this.vbButton1.Name = "vbButton1";
+            this.vbButton1.Size = new System.Drawing.Size(217, 49);
+            this.vbButton1.TabIndex = 7;
+            this.vbButton1.Text = "Lưu thay đổi";
+            this.vbButton1.TextColor = System.Drawing.Color.White;
+            this.vbButton1.UseVisualStyleBackColor = false;
             // 
             // vbButton2
             // 
@@ -279,77 +298,59 @@
             this.vbButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vbButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vbButton2.ForeColor = System.Drawing.Color.White;
-            this.vbButton2.Location = new System.Drawing.Point(475, 547);
+            this.vbButton2.Location = new System.Drawing.Point(470, 541);
             this.vbButton2.Name = "vbButton2";
             this.vbButton2.Size = new System.Drawing.Size(217, 49);
-            this.vbButton2.TabIndex = 3;
+            this.vbButton2.TabIndex = 8;
             this.vbButton2.Text = "Xóa hóa đơn";
             this.vbButton2.TextColor = System.Drawing.Color.White;
             this.vbButton2.UseVisualStyleBackColor = false;
             // 
-            // vbButton3
-            // 
-            this.vbButton3.BackColor = System.Drawing.Color.SeaGreen;
-            this.vbButton3.BackgroundColor = System.Drawing.Color.SeaGreen;
-            this.vbButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.vbButton3.BorderRadius = 10;
-            this.vbButton3.BorderSize = 0;
-            this.vbButton3.FlatAppearance.BorderSize = 0;
-            this.vbButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vbButton3.ForeColor = System.Drawing.Color.White;
-            this.vbButton3.Location = new System.Drawing.Point(764, 547);
-            this.vbButton3.Name = "vbButton3";
-            this.vbButton3.Size = new System.Drawing.Size(217, 49);
-            this.vbButton3.TabIndex = 3;
-            this.vbButton3.Text = "Thoát";
-            this.vbButton3.TextColor = System.Drawing.Color.White;
-            this.vbButton3.UseVisualStyleBackColor = false;
-            // 
-            // DetailHoaDon
+            // DetailBill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1174, 627);
-            this.Controls.Add(this.vbButton2);
+            this.ClientSize = new System.Drawing.Size(1199, 645);
             this.Controls.Add(this.vbButton3);
-            this.Controls.Add(this.vbButton1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "DetailHoaDon";
-            this.Text = "Chi tiết hóa đơn";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Controls.Add(this.vbButton1);
+            this.Controls.Add(this.vbButton2);
+            this.Name = "DetailBill";
+            this.Text = "DetailBill";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel1;
-        private VBButton vbButton1;
+
+        private VBButton vbButton3;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label kháchTrảlabel;
         private System.Windows.Forms.Label cầnTrảlabel;
-        private System.Windows.Forms.Label tổngTiềnlabel;
-        private System.Windows.Forms.Label cashierLabel;
-        private System.Windows.Forms.ComboBox comboBox;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label phụThulabel;
-        private System.Windows.Forms.Label giảmGiálabel;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label phụThulabel;
+        private System.Windows.Forms.Label giảmGiálabel;
+        private System.Windows.Forms.Label tổngTiềnlabel;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label cashierLabel;
+        private System.Windows.Forms.ComboBox comboBox;
+        private VBButton vbButton1;
         private VBButton vbButton2;
-        private VBButton vbButton3;
     }
 }

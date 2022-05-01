@@ -8,20 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PBL3__Circle_Kang
+namespace PBL3__Circle_Kang.GUI_AD
 {
-    public partial class DetailHoaDon : Form
+    public partial class GoodDetail : Form
     {
-        public DetailHoaDon()
+        public GoodDetail()
         {
             InitializeComponent();
         }
-
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
