@@ -70,7 +70,6 @@
             this.kháchHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DSKHtoolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tạoKháchHàngMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.lbnumSosanhHqua = new System.Windows.Forms.Label();
             this.lbnumDoanhthu = new System.Windows.Forms.Label();
             this.lbnumSoDon = new System.Windows.Forms.Label();
