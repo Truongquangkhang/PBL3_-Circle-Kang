@@ -70,6 +70,7 @@
             this.kháchHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DSKHtoolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tạoKháchHàngMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.lbnumSosanhHqua = new System.Windows.Forms.Label();
             this.lbnumDoanhthu = new System.Windows.Forms.Label();
             this.lbnumSoDon = new System.Windows.Forms.Label();
@@ -141,6 +142,14 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
+=======
+            this.panelhóaĐơn = new System.Windows.Forms.Panel();
+            this.btHDsearchHD = new PBL3__Circle_Kang.VBButton();
+            this.dgvHD = new System.Windows.Forms.DataGridView();
+            this.pnHDgioihanTT = new System.Windows.Forms.Panel();
+            this.tbHDmax = new System.Windows.Forms.TextBox();
+            this.tbHDmin = new System.Windows.Forms.TextBox();
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -150,15 +159,30 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.panelDanhsachHH = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.cbbNhaSanXuat_DSHH = new System.Windows.Forms.ComboBox();
+=======
+            this.panelDanhsáchHH = new System.Windows.Forms.Panel();
+            this.dgvDSHH = new System.Windows.Forms.DataGridView();
+            this.pnDSHHtenHH = new System.Windows.Forms.Panel();
+            this.tbDSHHtenHH = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.btDSHHdelete = new PBL3__Circle_Kang.VBButton();
+            this.btDSHHsearch = new PBL3__Circle_Kang.VBButton();
+            this.pnDSHHmucgia = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             this.label1 = new System.Windows.Forms.Label();
             this.cbbSapxep_DSHH = new System.Windows.Forms.ComboBox();
             this.dgvDSHH_DSHH = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.cbbLoaiHangHoa_DSHH = new System.Windows.Forms.ComboBox();
             this.LoạiLoaihanghoa = new System.Windows.Forms.Label();
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.panelHoaDon = new System.Windows.Forms.Panel();
             this.txtDonGia_NhapHang = new System.Windows.Forms.TextBox();
@@ -166,6 +190,23 @@
             this.txtTenMatHang_NhapHang = new System.Windows.Forms.TextBox();
             this.txtIDMatHang_NhapHang = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
+=======
+            this.panelNhapHang = new System.Windows.Forms.Panel();
+            this.tbNHdongia = new System.Windows.Forms.TextBox();
+            this.tbNHsoluong = new System.Windows.Forms.TextBox();
+            this.tbNHtenMH = new System.Windows.Forms.TextBox();
+            this.tbNHmaMH = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btNHLuu = new PBL3__Circle_Kang.VBButton();
+            this.dgvNH = new System.Windows.Forms.DataGridView();
+            this.label12 = new System.Windows.Forms.Label();
+            this.cbbNHloaiMH = new System.Windows.Forms.ComboBox();
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             this.panelNewKhachhang = new System.Windows.Forms.Panel();
             this.txtIDKhachHang_NewKH = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
@@ -191,6 +232,7 @@
             this.btnSearch_DSHH = new PBL3__Circle_Kang.VBButton();
             this.vbButton8 = new PBL3__Circle_Kang.VBButton();
             this.btnSapXep_DSNhanVien = new PBL3__Circle_Kang.VBButton();
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.btnXoa_DSNhanVien = new PBL3__Circle_Kang.VBButton();
             this.btnUpdate_DSNhanVien = new PBL3__Circle_Kang.VBButton();
             this.btnThem_DSNhanVien = new PBL3__Circle_Kang.VBButton();
@@ -198,6 +240,30 @@
             this.vbButton2 = new PBL3__Circle_Kang.VBButton();
             this.vbButton7 = new PBL3__Circle_Kang.VBButton();
             this.vbButton6 = new PBL3__Circle_Kang.VBButton();
+=======
+            this.cbbSapxep_DSNhanVien = new System.Windows.Forms.ComboBox();
+            this.menuStrip1.SuspendLayout();
+            this.panelhóaĐơn.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHD)).BeginInit();
+            this.pnHDgioihanTT.SuspendLayout();
+            this.pnHDcoMH.SuspendLayout();
+            this.pnHDngayTao.SuspendLayout();
+            this.pnHDnguoiTao.SuspendLayout();
+            this.panelDanhsáchHH.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSHH)).BeginInit();
+            this.pnDSHHtenHH.SuspendLayout();
+            this.pnDSHHmucgia.SuspendLayout();
+            this.pnDSHHloaiHH.SuspendLayout();
+            this.panelNhapHang.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNhapHang)).BeginInit();
+            this.panelNewKhachhang.SuspendLayout();
+            this.paneIThongtinKH.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dvKhachHang_ThongtinKH)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
+            this.contextMenuStrip2.SuspendLayout();
+            this.panelTongQuan.SuspendLayout();
+            this.panel15.SuspendLayout();
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             this.panel14.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel15.SuspendLayout();
@@ -492,6 +558,7 @@
             this.tạoKháchHàngMớiToolStripMenuItem.Size = new System.Drawing.Size(304, 39);
             this.tạoKháchHàngMớiToolStripMenuItem.Text = "Tạo khách hàng mới";
             // 
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             // lbnumSosanhHqua
             // 
             this.lbnumSosanhHqua.AutoSize = true;
@@ -502,6 +569,20 @@
             this.lbnumSosanhHqua.Size = new System.Drawing.Size(176, 46);
             this.lbnumSosanhHqua.TabIndex = 7;
             this.lbnumSosanhHqua.Text = "tăng 30%";
+=======
+            // panelhóaĐơn
+            // 
+            this.panelhóaĐơn.Controls.Add(this.btHDsearchHD);
+            this.panelhóaĐơn.Controls.Add(this.dgvHD);
+            this.panelhóaĐơn.Controls.Add(this.pnHDgioihanTT);
+            this.panelhóaĐơn.Controls.Add(this.pnHDcoMH);
+            this.panelhóaĐơn.Controls.Add(this.pnHDngayTao);
+            this.panelhóaĐơn.Controls.Add(this.pnHDnguoiTao);
+            this.panelhóaĐơn.Location = new System.Drawing.Point(0, 79);
+            this.panelhóaĐơn.Name = "panelhóaĐơn";
+            this.panelhóaĐơn.Size = new System.Drawing.Size(1974, 881);
+            this.panelhóaĐơn.TabIndex = 1;
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             // 
             // lbnumDoanhthu
             // 
@@ -1314,8 +1395,9 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Người tạo";
             // 
-            // panelDanhsachHH
+            // panelDanhsáchHH
             // 
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.panelDanhsachHH.Controls.Add(this.panel2);
             this.panelDanhsachHH.Controls.Add(this.cbbSapxep_DSHH);
             this.panelDanhsachHH.Controls.Add(this.dgvDSHH_DSHH);
@@ -1330,6 +1412,18 @@
             this.panelDanhsachHH.Name = "panelDanhsachHH";
             this.panelDanhsachHH.Size = new System.Drawing.Size(1979, 887);
             this.panelDanhsachHH.TabIndex = 13;
+=======
+            this.panelDanhsáchHH.Controls.Add(this.dgvDSHH);
+            this.panelDanhsáchHH.Controls.Add(this.btDSHHsearch);
+            this.panelDanhsáchHH.Controls.Add(this.pnDSHHtenHH);
+            this.panelDanhsáchHH.Controls.Add(this.btDSHHdelete);
+            this.panelDanhsáchHH.Controls.Add(this.pnDSHHmucgia);
+            this.panelDanhsáchHH.Controls.Add(this.pnDSHHloaiHH);
+            this.panelDanhsáchHH.Location = new System.Drawing.Point(0, 76);
+            this.panelDanhsáchHH.Name = "panelDanhsáchHH";
+            this.panelDanhsáchHH.Size = new System.Drawing.Size(1979, 887);
+            this.panelDanhsáchHH.TabIndex = 0;
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             // 
             // panel2
             // 
@@ -1340,6 +1434,7 @@
             this.panel2.Size = new System.Drawing.Size(485, 226);
             this.panel2.TabIndex = 10;
             // 
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             // cbbNhaSanXuat_DSHH
             // 
             this.cbbNhaSanXuat_DSHH.Font = new System.Drawing.Font("Segoe UI Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1349,6 +1444,117 @@
             this.cbbNhaSanXuat_DSHH.Name = "cbbNhaSanXuat_DSHH";
             this.cbbNhaSanXuat_DSHH.Size = new System.Drawing.Size(222, 33);
             this.cbbNhaSanXuat_DSHH.TabIndex = 1;
+=======
+            // pnDSHHtenHH
+            // 
+            this.panel6.Controls.Add(this.textBox3);
+            this.panel6.Controls.Add(this.label11);
+            this.panel6.Location = new System.Drawing.Point(42, 541);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(485, 233);
+            this.panel6.TabIndex = 4;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(126, 116);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(280, 32);
+            this.textBox3.TabIndex = 1;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(39, 46);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(181, 37);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Tên hàng hóa";
+            // 
+            // btnThem_DSHH
+            // 
+            this.btnThem_DSHH.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnThem_DSHH.BackgroundColor = System.Drawing.Color.SeaGreen;
+            this.btnThem_DSHH.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnThem_DSHH.BorderRadius = 15;
+            this.btnThem_DSHH.BorderSize = 0;
+            this.btnThem_DSHH.FlatAppearance.BorderSize = 0;
+            this.btnThem_DSHH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThem_DSHH.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem_DSHH.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnThem_DSHH.Location = new System.Drawing.Point(581, 795);
+            this.btnThem_DSHH.Name = "btnThem_DSHH";
+            this.btnThem_DSHH.Size = new System.Drawing.Size(212, 55);
+            this.btnThem_DSHH.TabIndex = 3;
+            this.btnThem_DSHH.Text = "Thêm";
+            this.btnThem_DSHH.TextColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnThem_DSHH.UseVisualStyleBackColor = false;
+            // 
+            // btDSHHsearch
+            // 
+            this.btDSHHsearch.BackColor = System.Drawing.Color.SeaGreen;
+            this.btDSHHsearch.BackgroundColor = System.Drawing.Color.SeaGreen;
+            this.btDSHHsearch.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btDSHHsearch.BorderRadius = 15;
+            this.btDSHHsearch.BorderSize = 0;
+            this.btDSHHsearch.FlatAppearance.BorderSize = 0;
+            this.btDSHHsearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDSHHsearch.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDSHHsearch.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btDSHHsearch.Location = new System.Drawing.Point(152, 801);
+            this.btDSHHsearch.Name = "btDSHHsearch";
+            this.btDSHHsearch.Size = new System.Drawing.Size(238, 60);
+            this.btDSHHsearch.TabIndex = 1;
+            this.btDSHHsearch.Text = "Tìm hàng hóa";
+            this.btDSHHsearch.TextColor = System.Drawing.SystemColors.ButtonFace;
+            this.btDSHHsearch.UseVisualStyleBackColor = false;
+            // 
+            // pnDSHHmucgia
+            // 
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.textBox2);
+            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel4.Location = new System.Drawing.Point(42, 276);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(485, 250);
+            this.panel4.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(357, 153);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(63, 32);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "VND";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(55, 153);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 32);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Max";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(357, 106);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(63, 32);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "VND";
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             // 
             // label1
             // 
@@ -1428,6 +1634,7 @@
             // 
             // dataGridView3
             // 
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.SeaGreen;
             this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
@@ -1450,49 +1657,214 @@
             this.panelHoaDon.Name = "panelHoaDon";
             this.panelHoaDon.Size = new System.Drawing.Size(1974, 881);
             this.panelHoaDon.TabIndex = 16;
+=======
+            this.panelNhapHang.Controls.Add(this.tbNHdongia);
+            this.panelNhapHang.Controls.Add(this.tbNHsoluong);
+            this.panelNhapHang.Controls.Add(this.tbNHtenMH);
+            this.panelNhapHang.Controls.Add(this.tbNHmaMH);
+            this.panelNhapHang.Controls.Add(this.label14);
+            this.panelNhapHang.Controls.Add(this.label18);
+            this.panelNhapHang.Controls.Add(this.label14);
+            this.panelNhapHang.Controls.Add(this.label20);
+            this.panelNhapHang.Controls.Add(this.label19);
+            this.panelNhapHang.Controls.Add(this.label13);
+            this.panelNhapHang.Controls.Add(this.btNHLuu);
+            this.panelNhapHang.Controls.Add(this.dgvNH);
+            this.panelNhapHang.Controls.Add(this.label12);
+            this.panelNhapHang.Controls.Add(this.cbbNHloaiMH);
+            this.panelNhapHang.Location = new System.Drawing.Point(0, 77);
+            this.panelNhapHang.Name = "panelNhapHang";
+            this.panelNhapHang.Size = new System.Drawing.Size(1942, 872);
+            this.panelNhapHang.TabIndex = 3;
+            this.panelNhapHang.Layout += new System.Windows.Forms.LayoutEventHandler(this.panelNhapHang_Layout);
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             // 
-            // txtDonGia_NhapHang
+            // tbNHdongia
             // 
-            this.txtDonGia_NhapHang.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDonGia_NhapHang.Location = new System.Drawing.Point(280, 359);
-            this.txtDonGia_NhapHang.Name = "txtDonGia_NhapHang";
-            this.txtDonGia_NhapHang.Size = new System.Drawing.Size(302, 39);
-            this.txtDonGia_NhapHang.TabIndex = 8;
+            this.tbNHdongia.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbNHdongia.Location = new System.Drawing.Point(280, 359);
+            this.tbNHdongia.Name = "tbNHdongia";
+            this.tbNHdongia.Size = new System.Drawing.Size(302, 39);
+            this.tbNHdongia.TabIndex = 8;
             // 
             // txtSoLuong_NhapHang
             // 
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.txtSoLuong_NhapHang.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoLuong_NhapHang.Location = new System.Drawing.Point(280, 437);
             this.txtSoLuong_NhapHang.Name = "txtSoLuong_NhapHang";
             this.txtSoLuong_NhapHang.Size = new System.Drawing.Size(370, 39);
             this.txtSoLuong_NhapHang.TabIndex = 8;
+=======
+            this.tbNHsoluong.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbNHsoluong.Location = new System.Drawing.Point(280, 437);
+            this.tbNHsoluong.Name = "tbNHsoluong";
+            this.tbNHsoluong.Size = new System.Drawing.Size(370, 39);
+            this.tbNHsoluong.TabIndex = 8;
+            this.tbNHsoluong.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             // 
             // txtTenMatHang_NhapHang
             // 
-            this.txtTenMatHang_NhapHang.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenMatHang_NhapHang.Location = new System.Drawing.Point(280, 209);
-            this.txtTenMatHang_NhapHang.Name = "txtTenMatHang_NhapHang";
-            this.txtTenMatHang_NhapHang.Size = new System.Drawing.Size(367, 39);
-            this.txtTenMatHang_NhapHang.TabIndex = 8;
+            this.tbNHtenMH.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbNHtenMH.Location = new System.Drawing.Point(280, 209);
+            this.tbNHtenMH.Name = "tbNHtenMH";
+            this.tbNHtenMH.Size = new System.Drawing.Size(367, 39);
+            this.tbNHtenMH.TabIndex = 8;
             // 
-            // txtIDMatHang_NhapHang
+            // tbNHmaMH
             // 
-            this.txtIDMatHang_NhapHang.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDMatHang_NhapHang.Location = new System.Drawing.Point(280, 132);
-            this.txtIDMatHang_NhapHang.Name = "txtIDMatHang_NhapHang";
-            this.txtIDMatHang_NhapHang.Size = new System.Drawing.Size(367, 39);
-            this.txtIDMatHang_NhapHang.TabIndex = 7;
+            this.tbNHmaMH.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbNHmaMH.Location = new System.Drawing.Point(280, 132);
+            this.tbNHmaMH.Name = "tbNHmaMH";
+            this.tbNHmaMH.Size = new System.Drawing.Size(367, 39);
+            this.tbNHmaMH.TabIndex = 7;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(69, 209);
+            this.label18.Location = new System.Drawing.Point(74, 108);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(155, 32);
             this.label18.TabIndex = 6;
             this.label18.Text = "Tên mặt hàng";
             // 
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
+=======
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(74, 567);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(60, 32);
+            this.label14.TabIndex = 6;
+            this.label14.Text = "HSD";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(74, 505);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(107, 32);
+            this.label20.TabIndex = 6;
+            this.label20.Text = "Số lượng";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(73, 437);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(96, 32);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "Đơn giá";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(587, 441);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(61, 32);
+            this.label13.TabIndex = 6;
+            this.label13.Text = "VND";
+            // 
+            // vbButton6
+            // 
+            this.vbButton6.BackColor = System.Drawing.Color.SeaGreen;
+            this.vbButton6.BackgroundColor = System.Drawing.Color.SeaGreen;
+            this.vbButton6.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.vbButton6.BorderRadius = 15;
+            this.vbButton6.BorderSize = 0;
+            this.vbButton6.FlatAppearance.BorderSize = 0;
+            this.vbButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vbButton6.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vbButton6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.vbButton6.Location = new System.Drawing.Point(233, 672);
+            this.vbButton6.Name = "vbButton6";
+            this.vbButton6.Size = new System.Drawing.Size(238, 60);
+            this.vbButton6.TabIndex = 5;
+            this.vbButton6.Text = "Lưu thay đổi";
+            this.vbButton6.TextColor = System.Drawing.SystemColors.ButtonFace;
+            this.vbButton6.UseVisualStyleBackColor = false;
+            // 
+            // dgvNhapHang
+            // 
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SeaGreen;
+            this.dgvNH.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvNH.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvNH.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvNH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNH.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvNH.Location = new System.Drawing.Point(724, 108);
+            this.dgvNH.Name = "dgvNH";
+            this.dgvNH.RowHeadersWidth = 51;
+            this.dgvNH.RowTemplate.Height = 24;
+            this.dgvNH.Size = new System.Drawing.Size(1237, 746);
+            this.dgvNH.TabIndex = 3;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(73, 373);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(105, 32);
+            this.label45.TabIndex = 1;
+            this.label45.Text = "Giảm giá";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Location = new System.Drawing.Point(73, 304);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(92, 32);
+            this.label48.TabIndex = 1;
+            this.label48.Text = "Vị trí kệ";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(73, 240);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(154, 32);
+            this.label42.TabIndex = 1;
+            this.label42.Text = "Nhà Sản Xuất";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(73, 173);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(162, 32);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Loại mặt hàng";
+            // 
+            // cbbNHloaiMH
+            // 
+            this.cbbNHloaiMH.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbNHloaiMH.FormattingEnabled = true;
+            this.cbbNHloaiMH.Location = new System.Drawing.Point(280, 286);
+            this.cbbNHloaiMH.Name = "cbbNHloaiMH";
+            this.cbbNHloaiMH.Size = new System.Drawing.Size(367, 39);
+            this.cbbNHloaiMH.TabIndex = 0;
+            // 
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             // panelNewKhachhang
             // 
             this.panelNewKhachhang.Controls.Add(this.txtIDKhachHang_NewKH);
@@ -1974,12 +2346,25 @@
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.ClientSize = new System.Drawing.Size(1905, 966);
             this.Controls.Add(this.panelDanhsachHH);
             this.Controls.Add(this.panelHoaDon);
             this.Controls.Add(this.panelDSNhanvien);
             this.Controls.Add(this.paneIThongtinKH);
             this.Controls.Add(this.panelTongQuan);
+=======
+            this.ClientSize = new System.Drawing.Size(1924, 972);
+            this.ContextMenuStrip = this.contextMenuStrip2;
+            this.Controls.Add(this.panelhóaĐơn);
+            this.Controls.Add(this.panelNewKhachhang);
+            this.Controls.Add(this.paneIThongtinKH);
+            this.Controls.Add(this.panelTongQuan);
+            this.Controls.Add(this.panelDSNhanvien);
+            this.Controls.Add(this.panelDanhsáchHH);
+            this.Controls.Add(this.panelNhapHang);
+            this.Controls.Add(this.panelLuong);
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.labelDoanhthuthang);
             this.Controls.Add(this.gBoxThongke);
@@ -1999,6 +2384,7 @@
             this.panel14.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             this.panel13.ResumeLayout(false);
@@ -2042,6 +2428,29 @@
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.panelHoaDon.ResumeLayout(false);
+=======
+            this.panelhóaĐơn.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHD)).EndInit();
+            this.pnHDgioihanTT.ResumeLayout(false);
+            this.pnHDgioihanTT.PerformLayout();
+            this.pnHDcoMH.ResumeLayout(false);
+            this.pnHDcoMH.PerformLayout();
+            this.pnHDngayTao.ResumeLayout(false);
+            this.pnHDngayTao.PerformLayout();
+            this.pnHDnguoiTao.ResumeLayout(false);
+            this.pnHDnguoiTao.PerformLayout();
+            this.panelDanhsáchHH.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSHH)).EndInit();
+            this.pnDSHHtenHH.ResumeLayout(false);
+            this.pnDSHHtenHH.PerformLayout();
+            this.pnDSHHmucgia.ResumeLayout(false);
+            this.pnDSHHmucgia.PerformLayout();
+            this.pnDSHHloaiHH.ResumeLayout(false);
+            this.pnDSHHloaiHH.PerformLayout();
+            this.panelNhapHang.ResumeLayout(false);
+            this.panelNhapHang.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNhapHang)).EndInit();
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
             this.panelNewKhachhang.ResumeLayout(false);
             this.panelNewKhachhang.PerformLayout();
             this.paneIThongtinKH.ResumeLayout(false);
@@ -2072,10 +2481,25 @@
         private System.Windows.Forms.ToolStripMenuItem tổngQuantoolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hàngHóatoolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem DSHangHoaToolStripMenuItem;
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
         private System.Windows.Forms.ToolStripMenuItem giaoDịchToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem HoaDonToolStripMenuItem;
+=======
+        private System.Windows.Forms.Panel panelhóaĐơn;
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
         private System.Windows.Forms.ToolStripMenuItem thôngTinToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tàiKhoảnToolStripMenuItem;
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
+=======
+        private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nhânViênToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lươngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem DSNVToolStripMenuItem;
+        private System.Windows.Forms.Panel panelDanhsáchHH;
+        private System.Windows.Forms.Panel pnDSHHloaiHH;
+        private System.Windows.Forms.Label LoạiLoaihanghoa;
+        private System.Windows.Forms.Panel panel4;
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
         private System.Windows.Forms.ToolStripMenuItem đổiMậtKhẩuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem càiĐặtToolStripMenuItem;
@@ -2084,6 +2508,66 @@
         private System.Windows.Forms.ToolStripMenuItem kháchHàngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem DSKHtoolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem tạoKháchHàngMớiToolStripMenuItem;
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
+=======
+        private System.Windows.Forms.Panel panelNhapHang;
+        private VBButton btDSHHdelete;
+        private System.Windows.Forms.TextBox tbNHdongia;
+        private System.Windows.Forms.TextBox tbNHsoluong;
+        private System.Windows.Forms.TextBox tbNHtenMH;
+        private System.Windows.Forms.TextBox tbNHmaMH;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label13;
+        private VBButton vbButton6;
+        private System.Windows.Forms.DataGridView dgvNhapHang;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox cbbLoaiMatHang_NhapHang;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel panelNewKhachhang;
+        private System.Windows.Forms.TextBox txtIDKhachHang_NewKH;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox txtSDT_NewKH;
+        private System.Windows.Forms.Label label23;
+        private VBButton vbButton7;
+        private System.Windows.Forms.Panel paneIThongtinKH;
+        private System.Windows.Forms.DataGridView dvKhachHang_ThongtinKH;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private VBButton vbButton8;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem càiĐặtToolStripMenuItem1;
+        private System.Windows.Forms.Panel panelTongQuan;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.GroupBox gBoxThongke;
+        private System.Windows.Forms.GroupBox gBoxHanghoa;
+        private System.Windows.Forms.GroupBox gBoxHoadonganday;
+        private System.Windows.Forms.Label lbnumKitruoc;
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
         private System.Windows.Forms.Label lbnumSosanhHqua;
         private System.Windows.Forms.Label lbnumDoanhthu;
         private System.Windows.Forms.Label lbnumSoDon;
@@ -2125,6 +2609,7 @@
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.TextBox textBox21;
         private System.Windows.Forms.Label label50;
+<<<<<<< HEAD:PBL3_ Circle-Kang/GUI_AD/Admin.Designer.cs
         private System.Windows.Forms.Panel panelDSNhanvien;
         private VBButton btnSapXep_DSNhanVien;
         private VBButton btnXoa_DSNhanVien;
@@ -2212,5 +2697,10 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox cbbNhaSanXuat_DSHH;
         private System.Windows.Forms.Label label1;
+=======
+        private System.Windows.Forms.Label label51;
+        private VBButton vbButton2;
+        private System.Windows.Forms.DataGridView dgvBL;
+>>>>>>> bccc73f6b0e2ccae56582a31a14e715ec3cc74a0:PBL3_ Circle-Kang/Admin.Designer.cs
     }
 }

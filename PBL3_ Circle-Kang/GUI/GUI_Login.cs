@@ -24,7 +24,7 @@ namespace PBL3__Circle_Kang.GUI
             Account acc = BLL_Login.Instance.GetAccountLogin(txtTenDangNhap_Login.Text, txtMatKhau_Login.Text);
             if (acc.Loai == 1)
             {
-                GUI_AD.Admin f = new GUI_AD.Admin();
+                GUI_AD.Admin1 f = new GUI_AD.Admin1();
                 f.ShowDialog();
             }
             else
