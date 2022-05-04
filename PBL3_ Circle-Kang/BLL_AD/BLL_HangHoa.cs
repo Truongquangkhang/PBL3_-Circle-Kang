@@ -2,6 +2,7 @@
 using PBL3__Circle_Kang.DTO_AD;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,9 +27,61 @@ namespace PBL3__Circle_Kang.BLL_AD
         {
             return DAL_HangHoa.Instance.GetLoaiHangs();
         }
-        public List<Hang> getAllHang(int id,string msg)
+        public DataTable getAllHang(int id_LHH,int id_NSX,string msg)
         {
-            return DAL_HangHoa.Instance.getAllHang(id,msg);
+            return DAL_HangHoa.Instance.getAllHang(id_LHH,id_NSX,msg);
+        }
+        public List<NhaSanXuat> getAllNSX()
+        {
+            return DAL_HangHoa.Instance.GetAllNhaSanXuat();
+        }
+        public List<string> getNSXByIDLoaiHang(int id)
+        {
+            return DAL_HangHoa.Instance.getNSXByIDLoaiHang(id);
+        }
+        public Hang getHangByID(int id)
+        {
+            return DAL_HangHoa.Instance.getHangByID(id);
+        }
+        public List<MaGiamGia> GetMaGiamGias()
+        {
+            return DAL_HangHoa.Instance.GetMaGiamGias();
+        }
+        public void AddUpdateHang(Hang h)
+        {
+            bool add = true;
+            foreach(DataRow i in getAllHang(0, 0, "").Rows)
+            {
+                if(h.ID == DAL_HangHoa.Instance.getHangByDataRow(i).ID)
+                {
+                    add = false;
+                    break;
+                }
+            }
+            if(add)
+            {
+                AddHang(h);
+            }else
+            {
+                UpdateHang(h);
+            }
+
+        }
+        public void AddHang(Hang h)
+        {
+            DAL_HangHoa.Instance.AddHangHoa(h);
+        }
+        public void UpdateHang(Hang h)
+        {
+            DAL_HangHoa.Instance.UpdateHangHoa(h);
+        }
+        public void DeleteHang(Hang h)
+        {
+            DAL_HangHoa.Instance.DeleteHangHoa(h);
+        }
+        public DataTable SortHangByYeuCau(string msg)
+        {
+            return DAL_HangHoa.Instance.SortHangHoa(msg);
         }
         
     }

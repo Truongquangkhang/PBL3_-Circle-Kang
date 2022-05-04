@@ -28,48 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.vbButton3 = new PBL3__Circle_Kang.VBButton();
+            this.btnThoat = new PBL3__Circle_Kang.VBButton();
             this.phụThulabel = new System.Windows.Forms.Label();
             this.giảmGiálabel = new System.Windows.Forms.Label();
             this.tổngTiềnlabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cashierLabel = new System.Windows.Forms.Label();
-            this.cbb = new System.Windows.Forms.ComboBox();
+            this.cbbLoaiHang = new System.Windows.Forms.ComboBox();
             this.cầnTrảlabel = new System.Windows.Forms.Label();
-            this.vbButton1 = new PBL3__Circle_Kang.VBButton();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnLuuThayDoi = new PBL3__Circle_Kang.VBButton();
+            this.txtTenMatHang = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.dateTimePickerHSD = new System.Windows.Forms.DateTimePicker();
+            this.txtTrangThai = new System.Windows.Forms.TextBox();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
+            this.txtGia = new System.Windows.Forms.TextBox();
             this.txtID = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.kháchTrảlabel = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbbMaGiamGia = new System.Windows.Forms.ComboBox();
+            this.cbbNhaSanXuat = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // vbButton3
+            // btnThoat
             // 
-            this.vbButton3.BackColor = System.Drawing.Color.SeaGreen;
-            this.vbButton3.BackgroundColor = System.Drawing.Color.SeaGreen;
-            this.vbButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.vbButton3.BorderRadius = 10;
-            this.vbButton3.BorderSize = 0;
-            this.vbButton3.FlatAppearance.BorderSize = 0;
-            this.vbButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vbButton3.ForeColor = System.Drawing.Color.White;
-            this.vbButton3.Location = new System.Drawing.Point(519, 646);
-            this.vbButton3.Name = "vbButton3";
-            this.vbButton3.Size = new System.Drawing.Size(217, 49);
-            this.vbButton3.TabIndex = 10;
-            this.vbButton3.Text = "Thoát";
-            this.vbButton3.TextColor = System.Drawing.Color.White;
-            this.vbButton3.UseVisualStyleBackColor = false;
+            this.btnThoat.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnThoat.BackgroundColor = System.Drawing.Color.SeaGreen;
+            this.btnThoat.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnThoat.BorderRadius = 10;
+            this.btnThoat.BorderSize = 0;
+            this.btnThoat.FlatAppearance.BorderSize = 0;
+            this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThoat.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.ForeColor = System.Drawing.Color.White;
+            this.btnThoat.Location = new System.Drawing.Point(519, 646);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(217, 49);
+            this.btnThoat.TabIndex = 10;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.TextColor = System.Drawing.Color.White;
+            this.btnThoat.UseVisualStyleBackColor = false;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // phụThulabel
             // 
@@ -77,9 +79,9 @@
             this.phụThulabel.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phụThulabel.Location = new System.Drawing.Point(42, 270);
             this.phụThulabel.Name = "phụThulabel";
-            this.phụThulabel.Size = new System.Drawing.Size(147, 32);
+            this.phụThulabel.Size = new System.Drawing.Size(114, 32);
             this.phụThulabel.TabIndex = 1;
-            this.phụThulabel.Text = "Mã Giảm Giá";
+            this.phụThulabel.Text = " Giảm Giá";
             // 
             // giảmGiálabel
             // 
@@ -123,13 +125,14 @@
             this.cashierLabel.TabIndex = 1;
             this.cashierLabel.Text = "Tên Mặt Hàng";
             // 
-            // cbb
+            // cbbLoaiHang
             // 
-            this.cbb.FormattingEnabled = true;
-            this.cbb.Location = new System.Drawing.Point(258, 156);
-            this.cbb.Name = "cbb";
-            this.cbb.Size = new System.Drawing.Size(471, 36);
-            this.cbb.TabIndex = 0;
+            this.cbbLoaiHang.FormattingEnabled = true;
+            this.cbbLoaiHang.Location = new System.Drawing.Point(258, 156);
+            this.cbbLoaiHang.Name = "cbbLoaiHang";
+            this.cbbLoaiHang.Size = new System.Drawing.Size(471, 36);
+            this.cbbLoaiHang.TabIndex = 0;
+            this.cbbLoaiHang.SelectedIndexChanged += new System.EventHandler(this.cbbLoaiHang_SelectedIndexChanged);
             // 
             // cầnTrảlabel
             // 
@@ -141,31 +144,32 @@
             this.cầnTrảlabel.TabIndex = 1;
             this.cầnTrảlabel.Text = "Giá";
             // 
-            // vbButton1
+            // btnLuuThayDoi
             // 
-            this.vbButton1.BackColor = System.Drawing.Color.SeaGreen;
-            this.vbButton1.BackgroundColor = System.Drawing.Color.SeaGreen;
-            this.vbButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.vbButton1.BorderRadius = 10;
-            this.vbButton1.BorderSize = 0;
-            this.vbButton1.FlatAppearance.BorderSize = 0;
-            this.vbButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vbButton1.ForeColor = System.Drawing.Color.White;
-            this.vbButton1.Location = new System.Drawing.Point(152, 646);
-            this.vbButton1.Name = "vbButton1";
-            this.vbButton1.Size = new System.Drawing.Size(217, 49);
-            this.vbButton1.TabIndex = 12;
-            this.vbButton1.Text = "Lưu thay đổi";
-            this.vbButton1.TextColor = System.Drawing.Color.White;
-            this.vbButton1.UseVisualStyleBackColor = false;
+            this.btnLuuThayDoi.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnLuuThayDoi.BackgroundColor = System.Drawing.Color.SeaGreen;
+            this.btnLuuThayDoi.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnLuuThayDoi.BorderRadius = 10;
+            this.btnLuuThayDoi.BorderSize = 0;
+            this.btnLuuThayDoi.FlatAppearance.BorderSize = 0;
+            this.btnLuuThayDoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLuuThayDoi.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuThayDoi.ForeColor = System.Drawing.Color.White;
+            this.btnLuuThayDoi.Location = new System.Drawing.Point(152, 646);
+            this.btnLuuThayDoi.Name = "btnLuuThayDoi";
+            this.btnLuuThayDoi.Size = new System.Drawing.Size(217, 49);
+            this.btnLuuThayDoi.TabIndex = 12;
+            this.btnLuuThayDoi.Text = "Lưu thay đổi";
+            this.btnLuuThayDoi.TextColor = System.Drawing.Color.White;
+            this.btnLuuThayDoi.UseVisualStyleBackColor = false;
+            this.btnLuuThayDoi.Click += new System.EventHandler(this.btnLuuThayDoi_Click);
             // 
-            // textBox2
+            // txtTenMatHang
             // 
-            this.textBox2.Location = new System.Drawing.Point(258, 97);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(471, 34);
-            this.textBox2.TabIndex = 2;
+            this.txtTenMatHang.Location = new System.Drawing.Point(258, 97);
+            this.txtTenMatHang.Name = "txtTenMatHang";
+            this.txtTenMatHang.Size = new System.Drawing.Size(471, 34);
+            this.txtTenMatHang.TabIndex = 2;
             // 
             // label1
             // 
@@ -179,57 +183,60 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox8);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.dateTimePickerHSD);
+            this.panel1.Controls.Add(this.txtTrangThai);
+            this.panel1.Controls.Add(this.txtSoLuong);
+            this.panel1.Controls.Add(this.txtGia);
             this.panel1.Controls.Add(this.txtID);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txtTenMatHang);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.kháchTrảlabel);
             this.panel1.Controls.Add(this.cầnTrảlabel);
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.phụThulabel);
             this.panel1.Controls.Add(this.giảmGiálabel);
             this.panel1.Controls.Add(this.tổngTiềnlabel);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.cashierLabel);
-            this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Controls.Add(this.cbb);
+            this.panel1.Controls.Add(this.cbbMaGiamGia);
+            this.panel1.Controls.Add(this.cbbNhaSanXuat);
+            this.panel1.Controls.Add(this.cbbLoaiHang);
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(7, 11);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(836, 588);
+            this.panel1.Size = new System.Drawing.Size(785, 588);
             this.panel1.TabIndex = 9;
             // 
-            // textBox8
+            // dateTimePickerHSD
             // 
-            this.textBox8.Location = new System.Drawing.Point(258, 517);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(471, 34);
-            this.textBox8.TabIndex = 2;
+            this.dateTimePickerHSD.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePickerHSD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerHSD.Location = new System.Drawing.Point(258, 387);
+            this.dateTimePickerHSD.Name = "dateTimePickerHSD";
+            this.dateTimePickerHSD.Size = new System.Drawing.Size(471, 34);
+            this.dateTimePickerHSD.TabIndex = 3;
             // 
-            // textBox7
+            // txtTrangThai
             // 
-            this.textBox7.Location = new System.Drawing.Point(258, 445);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(471, 34);
-            this.textBox7.TabIndex = 2;
+            this.txtTrangThai.Location = new System.Drawing.Point(258, 517);
+            this.txtTrangThai.Name = "txtTrangThai";
+            this.txtTrangThai.Size = new System.Drawing.Size(471, 34);
+            this.txtTrangThai.TabIndex = 2;
             // 
-            // textBox6
+            // txtSoLuong
             // 
-            this.textBox6.Location = new System.Drawing.Point(258, 385);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(471, 34);
-            this.textBox6.TabIndex = 2;
+            this.txtSoLuong.Location = new System.Drawing.Point(258, 445);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(471, 34);
+            this.txtSoLuong.TabIndex = 2;
             // 
-            // textBox5
+            // txtGia
             // 
-            this.textBox5.Location = new System.Drawing.Point(258, 327);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(471, 34);
-            this.textBox5.TabIndex = 2;
+            this.txtGia.Location = new System.Drawing.Point(258, 327);
+            this.txtGia.Name = "txtGia";
+            this.txtGia.Size = new System.Drawing.Size(471, 34);
+            this.txtGia.TabIndex = 2;
             // 
             // txtID
             // 
@@ -259,29 +266,39 @@
             this.kháchTrảlabel.TabIndex = 1;
             this.kháchTrảlabel.Text = "Hạn Sử Dụng";
             // 
-            // comboBox1
+            // label4
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(258, 214);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(471, 36);
-            this.comboBox1.TabIndex = 0;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semilight", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(735, 274);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(33, 32);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "%";
             // 
-            // comboBox2
+            // cbbMaGiamGia
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(258, 270);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(471, 36);
-            this.comboBox2.TabIndex = 0;
+            this.cbbMaGiamGia.FormattingEnabled = true;
+            this.cbbMaGiamGia.Location = new System.Drawing.Point(258, 270);
+            this.cbbMaGiamGia.Name = "cbbMaGiamGia";
+            this.cbbMaGiamGia.Size = new System.Drawing.Size(471, 36);
+            this.cbbMaGiamGia.TabIndex = 0;
+            // 
+            // cbbNhaSanXuat
+            // 
+            this.cbbNhaSanXuat.FormattingEnabled = true;
+            this.cbbNhaSanXuat.Location = new System.Drawing.Point(258, 214);
+            this.cbbNhaSanXuat.Name = "cbbNhaSanXuat";
+            this.cbbNhaSanXuat.Size = new System.Drawing.Size(471, 36);
+            this.cbbNhaSanXuat.TabIndex = 0;
             // 
             // GoodDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(857, 721);
-            this.Controls.Add(this.vbButton3);
-            this.Controls.Add(this.vbButton1);
+            this.ClientSize = new System.Drawing.Size(817, 721);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnLuuThayDoi);
             this.Controls.Add(this.panel1);
             this.Name = "GoodDetail";
             this.Text = "GoodDetail";
@@ -293,26 +310,27 @@
 
         #endregion
 
-        private VBButton vbButton3;
+        private VBButton btnThoat;
         private System.Windows.Forms.Label phụThulabel;
         private System.Windows.Forms.Label giảmGiálabel;
         private System.Windows.Forms.Label tổngTiềnlabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label cashierLabel;
-        private System.Windows.Forms.ComboBox cbb;
+        private System.Windows.Forms.ComboBox cbbLoaiHang;
         private System.Windows.Forms.Label cầnTrảlabel;
-        private VBButton vbButton1;
-        private System.Windows.Forms.TextBox textBox2;
+        private VBButton btnLuuThayDoi;
+        private System.Windows.Forms.TextBox txtTenMatHang;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtSoLuong;
+        private System.Windows.Forms.TextBox txtGia;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label kháchTrảlabel;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtTrangThai;
+        private System.Windows.Forms.ComboBox cbbMaGiamGia;
+        private System.Windows.Forms.ComboBox cbbNhaSanXuat;
+        private System.Windows.Forms.DateTimePicker dateTimePickerHSD;
+        private System.Windows.Forms.Label label4;
     }
 }
