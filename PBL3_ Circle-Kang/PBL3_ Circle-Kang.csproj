@@ -49,47 +49,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\BLL_Login.cs" />
-    <Compile Include="BLL_AD\BLL_HangHoa.cs" />
+    <Compile Include="BLL\BLL_AD\BLL_HangHoa.cs" />
     <Compile Include="DAL\DAL_Login.cs" />
     <Compile Include="DAL\Login_DBHelper.cs" />
-    <Compile Include="DAL_AD\DAL_HangHoa.cs" />
-    <Compile Include="DAL_AD\DBHelper_AD.cs" />
+    <Compile Include="DAL\DAL_AD\DAL_HangHoa.cs" />
+    <Compile Include="DAL\DAL_AD\DBHelper_AD.cs" />
     <Compile Include="DTO\Account.cs" />
-    <Compile Include="DTO_AD\CBBItemLoaiHang.cs" />
-    <Compile Include="DTO_AD\CBBItemMaGiamGia.cs" />
-    <Compile Include="DTO_AD\CBBItemNhaSanXuat.cs" />
-    <Compile Include="DTO_AD\Hang.cs" />
-    <Compile Include="DTO_AD\LoaiHang.cs" />
-    <Compile Include="DTO_AD\MaGiamGia.cs" />
-    <Compile Include="DTO_AD\NhaSanXuat.cs" />
+    <Compile Include="DTO\DTO_AD\CBBItemLoaiHang.cs" />
+    <Compile Include="DTO\DTO_AD\CBBItemMaGiamGia.cs" />
+    <Compile Include="DTO\DTO_AD\CBBItemNhaSanXuat.cs" />
+    <Compile Include="DTO\DTO_AD\Hang.cs" />
+    <Compile Include="DTO\DTO_AD\LoaiHang.cs" />
+    <Compile Include="DTO\DTO_AD\MaGiamGia.cs" />
+    <Compile Include="DTO\DTO_AD\NhaSanXuat.cs" />
     <Compile Include="GUI\GUI_Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\GUI_Login.Designer.cs">
       <DependentUpon>GUI_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI_AD\Admin.cs">
+    <Compile Include="GUI\GUI_AD\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI_AD\Admin.Designer.cs">
+    <Compile Include="GUI\GUI_AD\Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI_AD\DetailBill.cs">
+    <Compile Include="GUI\GUI_AD\DetailBill.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI_AD\DetailBill.Designer.cs">
+    <Compile Include="GUI\GUI_AD\DetailBill.Designer.cs">
       <DependentUpon>DetailBill.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI_AD\GoodDetail.cs">
+    <Compile Include="GUI\GUI_AD\GoodDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI_AD\GoodDetail.Designer.cs">
+    <Compile Include="GUI\GUI_AD\GoodDetail.Designer.cs">
       <DependentUpon>GoodDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI_ST\Cashier.cs">
+    <Compile Include="GUI\GUI_ST\Cashier.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI_ST\Cashier.Designer.cs">
+    <Compile Include="GUI\GUI_ST\Cashier.Designer.cs">
       <DependentUpon>Cashier.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -100,16 +100,16 @@
     <EmbeddedResource Include="GUI\GUI_Login.resx">
       <DependentUpon>GUI_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI_AD\Admin.resx">
+    <EmbeddedResource Include="GUI\GUI_AD\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI_AD\DetailBill.resx">
+    <EmbeddedResource Include="GUI\GUI_AD\DetailBill.resx">
       <DependentUpon>DetailBill.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI_AD\GoodDetail.resx">
+    <EmbeddedResource Include="GUI\GUI_AD\GoodDetail.resx">
       <DependentUpon>GoodDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI_ST\Cashier.resx">
+    <EmbeddedResource Include="GUI\GUI_ST\Cashier.resx">
       <DependentUpon>Cashier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -133,9 +133,9 @@
     <None Include="Resources\check-mark-8-481.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL_ST\" />
-    <Folder Include="DAL_ST\" />
-    <Folder Include="DTO_ST\" />
+    <Folder Include="BLL\BLL_CS\" />
+    <Folder Include="DAL\DAL_CS\" />
+    <Folder Include="DTO\DTO_CS\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
